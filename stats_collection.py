@@ -34,7 +34,7 @@ def print_stats(filename,name):
     try:
         filename_result = filename+"_"+"result"
         with open(filename,"a") as infile:
-            infile.write("Devices" +"       "+"tps"+"    "+"KB_read/s"+"    "+"KB_read"+"    "+"KB_write"+"\n")
+            infileiwrite("Devices" +"       "+"tps"+"    "+"KB_read/s"+"    "+"KB_writn/s"+"    "+"KB_read"+"    "+"KB_writn"+"\n")
         cmd = "iostat -d 1"
         output = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
         for line in iter(output.stdout.readline, ""):
