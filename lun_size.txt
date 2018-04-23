@@ -1,0 +1,7 @@
+lun_name lun_size
+lun1 200g
+lun2 20g
+lun3 25g
+lun4 500g
+lun5 900g
+lun6 1000g        
