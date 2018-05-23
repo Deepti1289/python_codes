@@ -1,3 +1,4 @@
+#find the lun of smallest size and print the name and size of it
 #!/usr/bin/python
 
 
